@@ -1,0 +1,35 @@
+/*************************************************  start request(h1) section **********************************************************************/
+.request div:first-child h1{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: end;
+    padding: 20px;
+    background-color: var(--main-color);
+    width: 200px;
+    height: 60px;
+    line-height: 20px;
+    display: block;
+    font-size: 28px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px ;
+}
+/*************************************************  end request(h1) section **********************************************************************/
+
+/*************************************************  start request-detail div *******************************************************************/
+.request .request-detail{
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 5px #ddd;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.request .request-detail h4{
+    color: var(--main-color);
+}
+/*************************************************  end request-detail div **********************************************************************/

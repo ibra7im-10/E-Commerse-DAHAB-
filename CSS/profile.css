@@ -1,0 +1,100 @@
+/***********************************************   start profile(h1) section *******************************************************/
+.profile div:first-child h1{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: end;
+    padding: 20px;
+    background-color: var(--main-color);
+    width: 200px;
+    height: 60px;
+    line-height: 20px;
+    display: block;
+    font-size: 28px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px ;
+}
+.profile{
+    font-family: var(--main-font);
+}
+/***********************************************   end profile(h1) section *******************************************************/
+
+/***********************************************   start personal-data section *******************************************************/
+.profile .personal-data{
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 5px #ddd;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.profile .personal-data .file{
+    margin: 30px -85px 0px 0px;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 10px;
+}
+/***********************************************   end personal-data section *******************************************************/
+
+/***********************************************   start pay-data section *******************************************************/
+.profile .pay-data{
+    border: 1px solid #333;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 5px #ddd;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin: auto;
+    padding: 30px;
+}
+.profile .pay-data img{
+    width: 90px;
+    height: 50px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.profile .pay-data button{
+    height: 60px;
+    background-color: var(--main-color);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: var(--main-font);
+    font-size: 28px;
+    opacity: 1;
+    transition: ease 0.3s;
+}
+.profile .pay-data button:hover{
+    opacity: 0.8;
+}
+/***********************************************   end pay-data section *******************************************************/
+
+/***********************************************   start media-quary section *******************************************************/
+@media (max-width : 800px) {
+    .profile .personal-data .file{
+        text-align: end;
+        margin: 0;
+    }
+}
+
+@media (max-width : 768px) {
+    .profile .personal-data .file h2{
+        font-size: 20px;
+    }
+    .profile .pay-data img{
+        width: 40px;
+        height: 30px;
+    }
+}
+@media (max-width : 480px) {
+.profile .pay-data,.profile .personal-data{
+        width: 85%;
+    }
+}
+/***********************************************   end media-quary section *******************************************************/

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finish-Last-Request Page</title>
+
+<!--======================================== start links section  ==================================================-->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/finish-the-request.css">
+<!--======================================== end links section  ==================================================-->
+
+</head>
+<body>   
+<!--======================================== start header section  ==================================================-->
+<header>
+    
+<!--======================================== start popup-container(sign-in)  ==================================================-->
+<div class="popup-container">
+    <div class="popup-content">
+        <i class="fas fa-window-close close-signIn"></i>
+        <img src="IMAGES/logo.png" alt="">
+        <h1>انشاء حساب</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="pe-3"><input type="text"></td>
+                    <td><label for="">الاسم</label></td>
+                </tr>
+                <tr>
+                    <td class="pe-3"><input type="email"></td>
+                    <td><label for="">البريد الالكتروني</label></td>
+                </tr>
+                <tr>
+                    <td class="pe-3"><input type="password"></td>
+                    <td><label for="">الرقم السري</label></td>
+               </tr>
+                <tr>
+                    <td class="pe-3"><input type="number"></td>
+                    <td><label for="">رقم الجوال</label></td>
+                </tr>
+            </tbody>
+        </table>
+        <button  class="mt-4 mb-4">انشاء حساب</button>
+    </div>
+</div>
+<!--======================================== end popup-container(sign-in)  ==================================================-->
+
+<!--======================================== start popup-container(sign-up)  ==================================================-->
+<div class="popup-container2">
+    <div class="popup-content">
+        <i class="fas fa-window-close close-signUp"></i>
+        <img src="IMAGES/logo.png" alt="">
+        <h1>تسجيل دخول</h1>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="pe-3"><input type="email"></td>
+                    <td><label for="">البريد الالكتروني</label></td>
+                </tr>
+                <tr>
+                    <td class="pe-3"><input type="password"></td>
+                    <td><label for="">الرقم السري</label></td>
+               </tr>
+            </tbody>
+        </table>
+        <button  class="mt-4 mb-4">تسجيل</button>
+    </div>
+</div>
+<!--======================================== end popup-container(sign-up)  ==================================================-->
+
+<!--======================================== start head-one section  ==================================================-->
+        <div class="head-one shadow p-3 mb-5 bg-body">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <ul class="list-unstyled d-flex gap-3 fs-3">
+                            <li><a href="bag.html"><i class="fas fa-shopping-bag"></i></a></li>
+                            <li><a href="favourite.html"><i class="fas fa-heart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="logo">
+                        <a href="index.html"><img src="IMAGES/logo.png"></a>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled d-flex gap-3 fs-3">
+                            <li><h2>EN</h2></li>
+                            <li class="user fas fa-user-alt mt-1"><i></i></li>
+                            <li><i class="fas fa-bars menu-icon"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul class="list-unstyled">
+                        <li><a href="products.html">ألماس</a></li>
+                        <li><a href="products.html">ذهب</a></li>
+                        <li><a href="products.html">فضة</a></li>
+                    </ul>
+                    <h1 class="close">x</h1>
+                </div>
+                <div id="login">
+                    <i class="fas fa-window-close" id="close-login"></i>
+                    <div>
+                        <img src="IMAGES/user5.png" alt="">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="sign-in">تسجيل</a></li>
+                        <li><a href="#" class="sign-up">تسجيل دخول</a></li>
+                        <li><a href="profile.html">ملفي الشخصي</a></li>
+                        <li><a href="request.html">طلباتي</a></li>
+                        <li><a href="#">تسجيل خروج</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!--======================================== end head-one section  ==================================================-->
+
+<!--======================================== start head-two section  ==================================================-->
+        <div class="head-two shadow-sm bg-body">
+            <div class="container">
+                <div class="d-flex justify-content-end">
+                    <div class="sorts">
+                        <ul class="list-unstyled d-flex gap-4">
+                            <li><a href="products.html">ألماس</a></li>
+                            <li><a href="products.html">ذهب</a></li>
+                            <li><a href="products.html">فضة</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="بحث" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">بحث</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--======================================== end head-two section  ==================================================--> 
+
+</header>
+<!--======================================== end header section  ==================================================-->
+
+<div class="head">
+    <div>
+        <h1>انهاء الطلب</h1>
+    </div>
+</div>
+
+<section class="finish">
+    <div class="container">
+        <div class="box text-end">
+            <h1>اضف</h1>
+            <div class="d-flex flex-wrap justify-content-end gap-5 mb-5">
+                <div>
+                    <h2>رقم جوال المستلم</h2>
+                    <input type="number">
+                </div>
+                <div>
+                    <h2>اسم المستلم</h2>
+                    <input type="text">
+                </div>
+            </div>
+    
+            <div class="d-flex flex-wrap justify-content-end gap-5 mb-5">
+                <div>
+                    <h2>الدوله</h2>
+                    <input type="text">
+                </div>
+                <div>
+                    <h2>البريد الالكتروني</h2>
+                    <input type="email">
+                </div>
+            </div>
+            <button>حفظ العنوان</button>
+        </div>
+
+        <div class="box text-end mt-5">
+            <h1 class="mb-4">اختر طريقة الدفع</h1>
+            <div class="images mb-5">
+                <img src="IMAGES/visa.jpg" alt="">
+                <img src="IMAGES/mada.jpg" alt="">
+                <img src="IMAGES/mastercard.png" alt="">
+                <img src="IMAGES/payapl.jpg" alt="">
+            </div>
+            <div class="d-flex flex-wrap text-end justify-content-end gap-5 mb-5">
+                <div>
+                    <h2>رمز البطاقة</h2>
+                    <input type="number">
+                </div>
+                <div>
+                    <h2>اسم البطاقة</h2>
+                    <input type="text">
+                </div>
+            </div>
+    
+            <div class="d-flex flex-wrap text-end justify-content-end gap-5 mb-5">
+                <div>
+                    <h2>تاريخ الانتهاء</h2>
+                    <input type="date">
+                </div>
+                <div>
+                    <h2>رقم البطاقة</h2>
+                    <input type="number">
+                </div>
+            </div>
+            <button>حفظ البطاقة</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--======================================== start footer section  ==================================================-->
+<footer>
+    <div class="container">
+        <div class="foot d-flex flex-wrap justify-content-center flex-row-reverse">
+            <div>
+                <h1 class="text-end">من نحن</h1>
+                <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto illum velit maxime non distinctio beatae numquam consequuntur corrupti a, labore rerum consectetur est officiis perspiciatis perferendis nobis debitis incidunt tempora modi. Error aspernatur debitis quaerat, iste possimus sint architecto!</p>
+            </div>
+            <div class="text-end">
+                <ul class="list-unstyled">
+                    <li>اتصل بنا</li>
+                    <li>الأسئلة الشائعة</li>
+                    <li>الشروط و الأحكام</li>
+                </ul>
+            </div>
+            <div class="text-end">
+                <ul class="list-unstyled">
+                    <li>السياسات</li>
+                    <li>الشحن والتوصيل</li>
+                </ul>
+            </div>
+            <div>
+                <img src="IMAGES/logo.png">
+            </div>
+        </div>
+    </div>
+<!--======================================== start line   ==================================================-->
+    <div class="line"></div>
+<!--======================================== end line   ==================================================-->
+    <div class="mt-4">
+        <p class="text-center">جميع الحقوق محفوظه ل <span class="fw-bold">ابراهيم كمال عباس</span>  2023م</p>
+    </div>
+</footer>
+<!--======================================== end footer section  ==================================================-->
+
+
+<!--======================================== start Script section  ==================================================-->
+    <script src="JS/bootstrap.js"></script>
+    <script src="JS/jquery-3.6.1.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/swiper-bundel.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/finish-the-request.js"></script>
+<!--======================================== end Script section  ==================================================-->
+
+</body>
+</html>

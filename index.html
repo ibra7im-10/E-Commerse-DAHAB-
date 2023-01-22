@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commerce (Dahab) </title>
+
+<!--======================================== start links section  ==================================================-->
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/swiper-bundle.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+<!--======================================== end links section  ==================================================-->
+
+</head>
+<body>
+    
+<!--======================================== start header section  ==================================================-->
+<header>
+
+<!--======================================== start popup-container(sign-in)  ==================================================-->
+    <div class="popup-container">
+        <div class="popup-content">
+            <i class="fas fa-window-close close-signIn"></i>
+            <img src="IMAGES/logo.png" alt="">
+            <h1>انشاء حساب</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="pe-3"><input type="text"></td>
+                        <td><label for="">الاسم</label></td>
+                    </tr>
+                    <tr>
+                        <td class="pe-3"><input type="email"></td>
+                        <td><label for="">البريد الالكتروني</label></td>
+                    </tr>
+                    <tr>
+                        <td class="pe-3"><input type="password"></td>
+                        <td><label for="">الرقم السري</label></td>
+                   </tr>
+                    <tr>
+                        <td class="pe-3"><input type="number"></td>
+                        <td><label for="">رقم الجوال</label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button  class="mt-4 mb-4">انشاء حساب</button>
+        </div>
+    </div>
+<!--======================================== end popup-container(sign-in)  ==================================================-->
+
+<!--======================================== start popup-container(sign-up)  ==================================================-->
+    <div class="popup-container2">
+        <div class="popup-content">
+            <i class="fas fa-window-close close-signUp"></i>
+            <img src="IMAGES/logo.png" alt="">
+            <h1>تسجيل دخول</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="pe-3"><input type="email"></td>
+                        <td><label for="">البريد الالكتروني</label></td>
+                    </tr>
+                    <tr>
+                        <td class="pe-3"><input type="password"></td>
+                        <td><label for="">الرقم السري</label></td>
+                   </tr>
+                </tbody>
+            </table>
+            <button  class="mt-4 mb-4">تسجيل</button>
+        </div>
+    </div>
+<!--======================================== end popup-container(sign-up)  ==================================================-->
+
+<!--======================================== start head-one section  ==================================================-->
+        <div class="head-one shadow p-3 mb-5 bg-body">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <ul class="list-unstyled d-flex gap-3 fs-3">
+                            <li><a href="bag.html"><i class="fas fa-shopping-bag"></i></a></li>
+                            <li><a href="favourite.html"><i class="fas fa-heart"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="logo">
+                        <a href="#"><img src="IMAGES/logo.png"></a>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled d-flex gap-3 fs-3">
+                            <li><h2>EN</h2></li>
+                            <li class="user fas fa-user-alt mt-1"><i></i></li>
+                            <li><i class="fas fa-bars menu-icon"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul class="list-unstyled">
+                        <li><a href="products.html">ألماس</a></li>
+                        <li><a href="products.html">ذهب</a></li>
+                        <li><a href="products.html">فضة</a></li>
+                    </ul>
+                    <h1 class="close">x</h1>
+                </div>
+                <div id="login">
+                    <i class="fas fa-window-close" id="close-login"></i>
+                    <div>
+                        <img src="IMAGES/user5.png" alt="">
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="sign-in">تسجيل</a></li>
+                        <li><a href="#" class="sign-up">تسجيل دخول</a></li>
+                        <li><a href="profile.html">ملفي الشخصي</a></li>
+                        <li><a href="request.html">طلباتي</a></li>
+                        <li><a href="#">تسجيل خروج</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!--======================================== end head-one section  ==================================================-->
+
+<!--======================================== start head-two section  ==================================================-->
+        <div class="head-two shadow-sm bg-body">
+            <div class="container">
+                <div class="d-flex justify-content-end">
+                    <div class="sorts">
+                        <ul class="list-unstyled d-flex gap-4">
+                            <li><a href="products.html">ألماس</a></li>
+                            <li><a href="products.html">ذهب</a></li>
+                            <li><a href="products.html">فضة</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="بحث" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">بحث</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--======================================== end head-two section  ==================================================-->
+
+</header>
+<!--======================================== end header section  ==================================================-->
+
+
+<!--======================================== start slider section  ==================================================-->
+<section class="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+                <img src="IMAGES/slide.jpg" class="d-block w-100" alt="..." style="height: 600px;">
+              </div>
+          <div class="carousel-item">
+            <img src="IMAGES/slide (2).jpg" class="d-block w-100" alt="..." style="height: 600px;">
+          </div>
+          <div class="carousel-item">
+            <img src="IMAGES/slide3.jpg" class="d-block w-100" alt="..." style="height: 600px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+<!--======================================== end slider section  ==================================================-->
+
+
+<!--======================================== start dahap-prise section  ==================================================-->
+<section class="dahap-prise mb-5">
+    <div class="container">
+        <h1>سعر الذهب</h1>
+
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="swiper-wrapper graphic">
+                    <div class="swiper-slide">
+                        <img src="IMAGES/graph1.png">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="IMAGES/graph2.jpg">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="IMAGES/graph3.jpg">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="IMAGES/graph4.png">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="IMAGES/graph5.jpeg">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+    
+        </div>
+    </div>
+</section>
+<!--======================================== end dahap-prise section  ==================================================-->
+
+
+<!--======================================== start last-arrive section  ==================================================-->
+<section class="last-arrive">
+    <div class="container">
+        <h1 class="text-center">وصل حديثا</h1>
+    </div>
+
+        <div class="slide-container swiper mx-5">
+            <div class="slide-content2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="IMAGES/product1.jpg">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="IMAGES/product3.jpg">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="IMAGES/product2.jpg">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="IMAGES/product4.jpg">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="IMAGES/product5.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+</section>
+<!--======================================== end last-arrive section  ==================================================-->
+
+
+<!--======================================== start best-seller section  ==================================================-->
+<section class="best-seller">
+    <div class="container">
+        <h1>الأفضل مبيعا</h1>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="IMAGES/banar1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="IMAGES/banar2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMAGES/banar3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </div>
+</section>
+<!--======================================== end best-seller section  ==================================================-->
+
+
+<!--======================================== start opinion section  ==================================================-->
+<section class="opinion">
+    <div class="container">
+        <h1>قالوا عنا</h1>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="kart swiper-slide">
+                    <img src="IMAGES/user.png">
+                    <h2>Jone Doe</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ipsam voluptate dolores at veniam quia similique quae nobis, maiores, facilis itaque sunt nam ea cumque vel minus autem tempora accusantium!</p>
+                </div>
+
+                <div class="kart swiper-slide">
+                    <img src="IMAGES/user1.png">
+                    <h2>Ali Mohamed</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ipsam voluptate dolores at veniam quia similique quae nobis, maiores, facilis itaque sunt nam ea cumque vel minus autem tempora accusantium!</p>
+                </div>
+
+                <div class="kart swiper-slide">
+                    <img src="IMAGES/user2.png">
+                    <h2>Ahmed</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ipsam voluptate dolores at veniam quia similique quae nobis, maiores, facilis itaque sunt nam ea cumque vel minus autem tempora accusantium!</p>
+                </div>
+
+                <div class="kart swiper-slide">
+                    <img src="IMAGES/user3.jpg">
+                    <h2>Hassan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ipsam voluptate dolores at veniam quia similique quae nobis, maiores, facilis itaque sunt nam ea cumque vel minus autem tempora accusantium!</p>
+                </div>
+            </div>
+
+        <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+<!--======================================== end opinion section  ==================================================-->
+
+
+<!--======================================== start footer section  ==================================================-->
+<footer>
+    <div class="container">
+        <div class="foot d-flex flex-wrap justify-content-center flex-row-reverse">
+            <div>
+                <h1 class="text-end">من نحن</h1>
+                <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur architecto illum velit maxime non distinctio beatae numquam consequuntur corrupti a, labore rerum consectetur est officiis perspiciatis perferendis nobis debitis incidunt tempora modi. Error aspernatur debitis quaerat, iste possimus sint architecto!</p>
+            </div>
+            <div class="text-end">
+                <ul class="list-unstyled">
+                    <li>اتصل بنا</li>
+                    <li>الأسئلة الشائعة</li>
+                    <li>الشروط و الأحكام</li>
+                </ul>
+            </div>
+            <div class="text-end">
+                <ul class="list-unstyled">
+                    <li>السياسات</li>
+                    <li>الشحن والتوصيل</li>
+                </ul>
+            </div>
+            <div>
+                <img src="IMAGES/logo.png">
+            </div>
+        </div>
+    </div>
+<!--======================================== start line   ==================================================-->
+    <div class="line"></div>
+<!--======================================== end line   ==================================================-->
+    <div class="mt-4">
+        <p class="text-center">جميع الحقوق محفوظه ل <span class="fw-bold">ابراهيم كمال عباس</span>  2023م</p>
+    </div>
+</footer>
+<!--======================================== end footer section  ==================================================-->
+
+
+<!--======================================== start Script section  ==================================================-->
+    <script src="JS/bootstrap.js"></script>
+    <script src="JS/jquery-3.6.1.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/swiper-bundel.min.js"></script>
+    <script src="JS/main.js"></script>
+<!--======================================== end Script section  ==================================================-->
+
+</body>
+</html>
